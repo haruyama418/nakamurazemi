@@ -60,16 +60,24 @@ a {
 .header_list li:hover{
     opacity:1;
 }
-.container {
-    height: 1000px;
-    background-image: url("pic6.jpg");
+.topwrapper {
+    height: 610px;
+    background-image: url("images/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
     background-size: cover;
     text-align: center;
     color:white;
   }
-.container h1 {
+.topwrapper h1 {
     line-height: 60px;
     padding-top: 150px;
     font-size: 50px;
     letter-spacing: 10px;
   }
+.intro h1{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.aboutuswrapper{
+    height: 610px;
+    background-size: cover;
+}
