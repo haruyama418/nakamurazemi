@@ -60,7 +60,7 @@ header{
 .header_list li:hover{
     opacity:1;
 }
-.topwrapper {
+.intro {
     height: 610px;
     background-image: url("hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
     background-size: cover;
