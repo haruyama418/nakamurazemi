@@ -1,65 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body {
     font-family: "Hiragino Kaku Gothic ProN", sans-serif;
   }
-header{
-    height:70px;
-    width:100%;
-    background-color:rgba(30, 50, 70, 0.9);
-    position:fixed;
-    top:0;
-    z-index:10;
-}
-.header_list li {
-    list-style:none;
-}
-.header_list a {
-    text-decoration:none;
-}
-
-.header_left{
-    float:left;
-}
-.logo{
-    color:white;
-    margin:20px;
-    font-size:20px;
-    opacity:0.7;
-}
-.logo:hover{
-    opacity:1;
-}
-.logo a{
-    color:white;
-}
-.menu_icon {
-    color: white;
-    float: right;
-    font-size: 30px;
-    padding: 20px;
-    display:none;
-}
-.menu_icon:hover{
-  background-color:rgba(25, 25, 25, 0.5);
-}
-.header_right {
-    float:right;
-}
-.header_list li{
-    float:left;
-    margin:25px;
-    opacity:0.7;
-}
-.header_list a{
-    color:white;
-    border-style:none;
-}
-.header_list li:hover{
-    opacity:1;
-}
 .intro {
     height: 610px;
     background-image: url("hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
@@ -81,20 +22,6 @@ header{
     height: 610px;
     background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -260,5 +187,4 @@ header{
     margin-right:0;
     font-weight:600
   }
-}
-
+    /*ここから*/
