@@ -67,7 +67,7 @@ header{
     text-align: center;
     color:white;
   }
-.topwrapper h1 {
+.tintro {
     line-height: 60px;
     padding-top: 150px;
     font-size: 50px;
@@ -77,7 +77,7 @@ header{
     padding-top: 50px;
     font-size: 40px;
 }
-.aboutuswrapper{
+.intro{
     height: 610px;
     background-size: cover;
 }
