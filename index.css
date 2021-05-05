@@ -188,3 +188,35 @@ body {
     font-weight:600
   }
     /*ここから*/
+.aboutus{
+    margin-top: 50px;
+}
+.aboutus-wrapper{
+    height: 530px;
+    background-size: cover;
+    padding: 20px 40px;
+}
+.aboutus-box{
+    width:50%;
+    color:#004F80;
+    float: left;
+}
+.aboutus-box h1{
+    display: inline-block;
+    border-bottom:solid 4px;
+    font-size: 40px;
+}
+.aboutus-box h2{
+    margin-top:30px;
+}
+.aboutus-box p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.twitter-timeline{
+    margin: 40px
+}
+.clear{
+  clear:left;
+}
