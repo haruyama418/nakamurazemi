@@ -1,124 +1,158 @@
-
-html, body {
-  background: #F7F5E6;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+*{
+    box-sizing:border-box;  
+    margin: 0px;
+    padding: 0px;
 }
-
-.slider {
-  margin: 0 auto;
-  max-width: 940px;
-}
-
-.slide_viewer {
-  height: 340px;
-  overflow: hidden;
-  position: relative;
-}
-
-.slide_group {
-  height: 100%;
-  position: relative;
-  width: 100%;
-}
-
-.slide {
-  display: none;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-
-.slide:first-child {
-  display: block;
-}
-
-.slide:nth-of-type(1) {
-  background-image: url("hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
-}
-
-.slide:nth-of-type(2) {
-  background-image: url("hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
-}
-
-.slide:nth-of-type(3) {
-  background-image: url("hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
-}
-
-.slide:nth-of-type(4) {
-  background-image: url("hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
-}
-
-.slide_buttons {
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-}
-
-a.slide_btn {
-  color: #474544;
-  font-size: 42px;
-  margin: 0 0.175em;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.slide_btn.active, .slide_btn:hover {
-  color: #428CC6;
-  cursor: pointer;
-}
-
-.directional_nav {
-  height: 340px;
-  margin: 0 auto;
-  max-width: 940px;
-  position: relative;
-  top: -340px;
-}
-
-.previous_btn {
-  bottom: 0;
-  left: 100px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-}
-
-.next_btn {
-  bottom: 0;
-  margin: auto;
-  position: absolute;
-  right: 100px;
-  top: 0;
-}
-
-.previous_btn, .next_btn {
-  cursor: pointer;
-  height: 65px;
-  opacity: 0.5;
-  -webkit-transition: opacity 0.4s ease-in-out;
-  -moz-transition: opacity 0.4s ease-in-out;
-  -ms-transition: opacity 0.4s ease-in-out;
-  -o-transition: opacity 0.4s ease-in-out;
-  transition: opacity 0.4s ease-in-out;
-  width: 65px;
-}
-
-.previous_btn:hover, .next_btn:hover {
-  opacity: 1;
-}
-
-@media only screen and (max-width: 767px) {
-  .previous_btn {
-    left: 50px;
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
   }
-  .next_btn {
-    right: 50px;
-  }
+.clear{
+    clear: left;
+}
+header{
+    height:70px;
+    width:100%;
+    background-color:rgba(30, 50, 70, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.header-list li {
+    list-style:none;
+}
+.header-list a {
+    text-decoration:none;
+}
+.ACheader-list{
+    border-top: solid;
+    display: none;
+    margin-top: 70px;
+    background-color:rgba(30, 50, 70, 0.9);
+    color: white;
+}
+.ACheader-list li{
+    list-style:none;
+    text-align: center;
+    line-height: 40px
+}
+.ACheader-list a {
+    text-decoration:none;
+    color: white;
+    opacity: 0.7;
+}
+.ACheader-list a:hover{
+    opacity: 1;
+}
+.header-left{
+    float:left;
+}
+.header-left a{
+    text-decoration:none;
+}
+.logo{
+    color:white;
+    margin:20px;
+    font-size:20px;
+    opacity:0.7;
+}
+.logo:hover{
+    opacity:1;
+}
+.logo a{
+    color:white;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding: 20px;
+    display:none;
+}
+.menu-icon:hover{
+  background-color:rgba(25, 25, 25, 0.5);
+}
+.header-right {
+    float:right;
+}
+.header-list li{
+    float:left;
+    margin:25px;
+    opacity:0.7;
+}
+.header-list a{
+    color:white;
+    border-style:none;
+}
+.header-list li:hover{
+    opacity:1;
+}
+.activity-wrapper{
+    padding: 90px 40px 0 40px;
+    margin-bottom: 40px;
+    color:#004F80;
+    background-size: cover;
+    height: 500px
+}
+.activity-wrapper h1{
+    display: inline-block;
+    border-bottom:solid 4px;
+    font-size: 40px;
+}
+.box{
+    width: 50%;
+    float: left;
+}
+.seminar1 h2{
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.seminar1 li{
+    margin-left: 20px;
+    line-height: 30px;
+}
+.img-seminar1 {
+    margin-top: 70px;
+    margin-left: 80px;
+    position: relative;
+    width:480px;
+}
+.img-seminar1 img {
+    width:100%;
+    position: absolute;    
+}
+footer{
+    background-color:rgb(30, 50, 70);
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+.content{
+    float: left;
+    margin: 40px 50px 0 50px;
+}
+.sns a{
+    font-size: 50px;
+}
+.instagram{
+    color: #D93177;
+    margin-right: 25px;
+}
+.twitter {
+    color: #55acee;
+}
+.website-links li{
+    list-style:none;
+    margin: 10px 0;
+}
+.website-links a{
+    color: white;
+}
+.footer-bottom{
+    padding: 20px 0;
+}
+.copyright-text{
+    margin-left: 20px;
+    opacity: 0.5;
+    font-style: italic;
 }
