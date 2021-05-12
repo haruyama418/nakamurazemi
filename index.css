@@ -1,7 +1,7 @@
   *{
     box-sizing:border-box;  
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: "Hiragino Kaku Gothic ProN", sans-serif;
@@ -88,7 +88,7 @@ header{
 }
 .top-wrapper {
     height: 610px;
-    background-image: url("hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
+    background-image: url("img/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -110,6 +110,9 @@ header{
 .aboutus-wrapper{
     background-size: cover;
     padding: 20px 40px;
+    width: 100%;
+    background-color: rgba(47, 79, 79, 0.1);
+    height: 520px;
 }
 .aboutus-box{
     width:50%;
