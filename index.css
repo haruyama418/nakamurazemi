@@ -133,6 +133,49 @@ header{
 .twitter-timeline{
     margin: 40px
 }
+.prof-wrapper{
+    color:#004F80;
+    background-size: cover;
+    background-color: #f7f7f7;
+    height: 710px;
+    padding: 20px 40px;
+    width: 100%;
+}
+.prof-wrapper h1{
+    display: inline-block;
+    border-bottom:solid 4px;
+    font-size: 40px;
+    float: left;
+}
+.prof-wrapper h2{
+    font-size: 30px;
+    clear: both;
+    padding-top: 20px;
+}
+.prof-img img{
+    width:30%;
+    float: right;
+}
+.profile{
+    float: left;
+    padding: 20px 0;
+    width: 35%;
+}
+.profile p{
+    font-size: 20px;
+}
+.profile li{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.profile img{
+    padding-top: 20px;
+    width: 350px;
+    padding-right: 20px;
+}
+.hobby{
+    margin-left: 50px;
+}
 footer{
     background-color:rgb(30, 50, 70);
     color: white;
