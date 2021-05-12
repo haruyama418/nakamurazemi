@@ -20,6 +20,21 @@
     .container{
         width:100%;
     }
+    .prof-wrapper{
+        height:1320px;
+    }
+    .prof-img img{
+        width:300px;
+        float: left;
+    }
+    .profile{
+        float: left;
+        padding: 20px 0;
+        width: 100%;
+    }
+    .hobby{
+        margin-left: 0;
+    }
 }
 @media (max-width: 670px){
     .top-wrapper{
@@ -50,6 +65,22 @@
 }
     .twitter-timeline{
         margin: 0;
+    }
+     .prof-wrapper{
+        height: 1200px;
+        width: 100%;
+    }
+    .prof-wrapper h1{
+        font-size: 24px;
+    }
+    .prof-wrapper h2{
+        font-size: 21px;
+    }
+    .profile p{
+        font-size: 15px;
+    }
+    .profile li{
+        font-size: 15px;
     }
     .content{
         margin-left: 20px;
