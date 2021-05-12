@@ -88,6 +88,12 @@
     .profile li{
         font-size: 15px;
     }
+    .profile img{
+        width: 300px;
+    }
+    .hobby img{
+        width: 259px;
+    }
     .content{
         margin-left: 20px;
     }
