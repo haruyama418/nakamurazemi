@@ -38,6 +38,9 @@
          width: 300px;
          margin-top: 40px;
     }
+    .content{
+        margin-left: 20px;
+    }
     .contact iframe{
         width: 330px;
     }
