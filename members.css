@@ -111,9 +111,10 @@ header{
 }
 .box{
     float: left;
-    width: 370px;
+    width: 375px;
     border: solid 2px;
-    margin: 0 10px;
+    margin-left:10px;
+    padding:5px;
 }
 .message-wrapper h3{
     font-size: 25px;
