@@ -54,6 +54,7 @@
     }
     .box{
         width: 300px;
+        margin: 0 0;
     }
     .card{
         width: 100%;
