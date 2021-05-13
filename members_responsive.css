@@ -43,10 +43,17 @@
     }
     .shinyu-message h3{
         padding-top: 10px;
+        text-align: start;
     }
     .yuzuki-message{
         clear: both;
         padding-top: 10px;
+    }
+    .yuzuki-message h3{
+        text-align: start;
+    }
+    .box{
+        width: 300px;
     }
     .card{
         width: 100%;
