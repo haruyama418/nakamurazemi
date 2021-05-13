@@ -59,6 +59,9 @@
     .card{
         width: 100%;
     }
+    .content{
+        margin-left: 20px;
+    }
     .contact iframe{
         width: 330px;
     }
