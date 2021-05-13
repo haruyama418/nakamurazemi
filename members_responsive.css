@@ -58,6 +58,7 @@
     }
     .card{
         width: 100%;
+        height:340px;
     }
     .content{
         margin-left: 20px;
