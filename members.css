@@ -93,28 +93,26 @@ header{
     background-size: cover;
 }
 .message-wrapper{
-    height: 400px;
     margin: 20px 0;
-    width: 100%
+    width: 100%;
 }
 .message-wrapper h2{
     font-size: 30px;
     margin-bottom: 20px;
 }
-.shinyu{
+.shinyu-wrapper{
     width: 50%;
     float: left;
 }
-.yuzuki{
+.yuzuki-wrapper{
     width: 50%;
     float: left;
 }
 .box{
-    float: left;
     width: 375px;
     border: solid 2px;
     margin-left:10px;
-    padding:5px;
+    padding: 5px;
 }
 .message-wrapper h3{
     font-size: 25px;
@@ -123,11 +121,12 @@ header{
     font-size: 19px;
     line-height: 35px;
 }
-.shinyu-message h3{
+.shinyu-message{
+    float: left;
     text-align: center;
 }
-.shinyu-message p{
-    text-align: center;
+.yuzuki-message{
+    float: left;
 }
 .yuzuki-message h3{
     text-align: center;
@@ -135,6 +134,7 @@ header{
 .message-wrapper img{
     float: left;
     width: 200px;
+    margin-bottom: 40px;
 }
 .members-wrapper h1{
     display: inline-block;
